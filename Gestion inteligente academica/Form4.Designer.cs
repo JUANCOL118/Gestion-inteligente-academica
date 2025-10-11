@@ -56,8 +56,9 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.label9.Location = new System.Drawing.Point(481, 83);
+            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(629, 83);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 16);
             this.label9.TabIndex = 17;
@@ -67,7 +68,9 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(525, 83);
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(673, 83);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(136, 16);
             this.label12.TabIndex = 20;
@@ -77,7 +80,9 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(667, 83);
+            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
+            this.label10.ForeColor = System.Drawing.Color.White;
+            this.label10.Location = new System.Drawing.Point(815, 83);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(121, 16);
             this.label10.TabIndex = 21;
@@ -87,7 +92,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Gestion_inteligente_academica.Properties.Resources._0b3605e3_d80c_4e0d_87e1_788ce33e8571;
-            this.pictureBox2.Location = new System.Drawing.Point(739, 12);
+            this.pictureBox2.Location = new System.Drawing.Point(887, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 50);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -120,7 +125,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(948, 594);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.label10);
@@ -131,6 +136,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Planes_Mejora";
             this.Text = "Form4";
+            this.Load += new System.EventHandler(this.Planes_Mejora_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

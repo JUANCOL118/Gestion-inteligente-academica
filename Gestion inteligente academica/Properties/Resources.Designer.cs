@@ -93,6 +93,16 @@ namespace Gestion_inteligente_academica.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap chulo {
+            get {
+                object obj = ResourceManager.GetObject("chulo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap panel_Docente {
             get {
                 object obj = ResourceManager.GetObject("panel_Docente", resourceCulture);
@@ -116,6 +126,46 @@ namespace Gestion_inteligente_academica.Properties {
         internal static System.Drawing.Bitmap Recomendaciones {
             get {
                 object obj = ResourceManager.GetObject("Recomendaciones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap riesgo {
+            get {
+                object obj = ResourceManager.GetObject("riesgo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Riesgo_bajo {
+            get {
+                object obj = ResourceManager.GetObject("Riesgo_bajo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap riesgo1 {
+            get {
+                object obj = ResourceManager.GetObject("riesgo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap signo_admiracion {
+            get {
+                object obj = ResourceManager.GetObject("signo_admiracion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

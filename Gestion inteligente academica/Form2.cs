@@ -66,5 +66,10 @@ namespace Gestion_inteligente_academica
             Form formulario = new Inicio_Sesion();
             formulario.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

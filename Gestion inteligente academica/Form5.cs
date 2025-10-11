@@ -28,5 +28,12 @@ namespace Gestion_inteligente_academica
             Form formulario = new Inicio();
             formulario.Show();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form formulario = new Inicio();
+            formulario.Show();
+        }
     }
 }

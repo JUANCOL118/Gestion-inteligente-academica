@@ -58,5 +58,10 @@ namespace Gestion_inteligente_academica
             Form formulario = new Inicio_Sesion();
             formulario.Show();
         }
+
+        private void Planes_Mejora_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
