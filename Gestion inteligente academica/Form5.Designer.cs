@@ -42,7 +42,7 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(393, 232);
+            this.textBox1.Location = new System.Drawing.Point(472, 209);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(332, 30);
@@ -53,7 +53,7 @@
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(472, 471);
+            this.button1.Location = new System.Drawing.Point(472, 372);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 38);
             this.button1.TabIndex = 5;
@@ -68,7 +68,7 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(432, 152);
+            this.label1.Location = new System.Drawing.Point(241, 210);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(204, 29);
             this.label1.TabIndex = 6;
@@ -80,7 +80,7 @@
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(355, 291);
+            this.label2.Location = new System.Drawing.Point(319, 259);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 27);
             this.label2.TabIndex = 7;
@@ -89,7 +89,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(508, 291);
+            this.textBox2.Location = new System.Drawing.Point(472, 259);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(332, 30);
@@ -107,7 +107,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(505, 337);
+            this.label5.Location = new System.Drawing.Point(487, 306);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(140, 16);
             this.label5.TabIndex = 11;
