@@ -1,6 +1,6 @@
 ﻿namespace Gestion_inteligente_academica
 {
-    partial class Panel_Estudiante
+    partial class fm_Panel_Estudiante
     {
         /// <summary>
         /// Required designer variable.
@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Panel_Estudiante));
-            this.label2 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(fm_Panel_Estudiante));
+            this.lb_panel_estudiante1 = new System.Windows.Forms.Label();
+            this.lb_inicio = new System.Windows.Forms.Label();
+            this.lb_panel_docente2 = new System.Windows.Forms.Label();
+            this.lb_recomendaciones1 = new System.Windows.Forms.Label();
+            this.lb_nombre = new System.Windows.Forms.Label();
+            this.lb_programa_academico = new System.Windows.Forms.Label();
+            this.lb_codigo_estudiante = new System.Windows.Forms.Label();
+            this.lb_progreso_academico = new System.Windows.Forms.Label();
+            this.lb_rendimiento_academico = new System.Windows.Forms.Label();
+            this.lb_riesgo_bajo = new System.Windows.Forms.Label();
+            this.lb_riesgo_medio = new System.Windows.Forms.Label();
+            this.lb_riesgo_alto = new System.Windows.Forms.Label();
+            this.lb_recordatorios = new System.Windows.Forms.Label();
+            this.lb_grupo = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -50,6 +50,8 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -59,159 +61,160 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // label2
+            // lb_panel_estudiante1
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(12, 80);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(226, 27);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Panel Del Estudiante ";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.lb_panel_estudiante1.AutoSize = true;
+            this.lb_panel_estudiante1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_panel_estudiante1.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_panel_estudiante1.ForeColor = System.Drawing.Color.White;
+            this.lb_panel_estudiante1.Location = new System.Drawing.Point(12, 80);
+            this.lb_panel_estudiante1.Name = "lb_panel_estudiante1";
+            this.lb_panel_estudiante1.Size = new System.Drawing.Size(226, 27);
+            this.lb_panel_estudiante1.TabIndex = 4;
+            this.lb_panel_estudiante1.Text = "Panel Del Estudiante ";
+            this.lb_panel_estudiante1.Click += new System.EventHandler(this.label2_Click);
             // 
-            // label9
+            // lb_inicio
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(528, 80);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 16);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Inicio";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.lb_inicio.AutoSize = true;
+            this.lb_inicio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
+            this.lb_inicio.ForeColor = System.Drawing.Color.White;
+            this.lb_inicio.Location = new System.Drawing.Point(528, 80);
+            this.lb_inicio.Name = "lb_inicio";
+            this.lb_inicio.Size = new System.Drawing.Size(38, 16);
+            this.lb_inicio.TabIndex = 17;
+            this.lb_inicio.Text = "Inicio";
+            this.lb_inicio.Click += new System.EventHandler(this.label9_Click);
             // 
-            // label10
+            // lb_panel_docente2
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(572, 80);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(121, 16);
-            this.label10.TabIndex = 18;
-            this.label10.Text = "Panel del Docente ";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.lb_panel_docente2.AutoSize = true;
+            this.lb_panel_docente2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_panel_docente2.ForeColor = System.Drawing.Color.White;
+            this.lb_panel_docente2.Location = new System.Drawing.Point(572, 80);
+            this.lb_panel_docente2.Name = "lb_panel_docente2";
+            this.lb_panel_docente2.Size = new System.Drawing.Size(121, 16);
+            this.lb_panel_docente2.TabIndex = 18;
+            this.lb_panel_docente2.Text = "Panel del Docente ";
+            this.lb_panel_docente2.Click += new System.EventHandler(this.label10_Click);
             // 
-            // label11
+            // lb_recomendaciones1
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(699, 80);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(244, 16);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "Recomendaciones y Planes de Mejora ";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.lb_recomendaciones1.AutoSize = true;
+            this.lb_recomendaciones1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
+            this.lb_recomendaciones1.ForeColor = System.Drawing.Color.White;
+            this.lb_recomendaciones1.Location = new System.Drawing.Point(699, 80);
+            this.lb_recomendaciones1.Name = "lb_recomendaciones1";
+            this.lb_recomendaciones1.Size = new System.Drawing.Size(244, 16);
+            this.lb_recomendaciones1.TabIndex = 19;
+            this.lb_recomendaciones1.Text = "Recomendaciones y Planes de Mejora ";
+            this.lb_recomendaciones1.Click += new System.EventHandler(this.label11_Click);
             // 
-            // label1
+            // lb_nombre
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.label1.Location = new System.Drawing.Point(193, 147);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 24);
-            this.label1.TabIndex = 24;
-            this.label1.Text = "Nombre Completo";
+            this.lb_nombre.AutoSize = true;
+            this.lb_nombre.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_nombre.Location = new System.Drawing.Point(193, 147);
+            this.lb_nombre.Name = "lb_nombre";
+            this.lb_nombre.Size = new System.Drawing.Size(168, 24);
+            this.lb_nombre.TabIndex = 24;
+            this.lb_nombre.Text = "Nombre Completo";
             // 
-            // label3
+            // lb_programa_academico
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(195, 181);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(139, 16);
-            this.label3.TabIndex = 25;
-            this.label3.Text = "Programa Academico";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.lb_programa_academico.AutoSize = true;
+            this.lb_programa_academico.Location = new System.Drawing.Point(195, 181);
+            this.lb_programa_academico.Name = "lb_programa_academico";
+            this.lb_programa_academico.Size = new System.Drawing.Size(139, 16);
+            this.lb_programa_academico.TabIndex = 25;
+            this.lb_programa_academico.Text = "Programa Academico";
+            this.lb_programa_academico.Click += new System.EventHandler(this.label3_Click);
             // 
-            // label4
+            // lb_codigo_estudiante
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(195, 208);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(139, 16);
-            this.label4.TabIndex = 26;
-            this.label4.Text = "Codigo del Estudiante";
+            this.lb_codigo_estudiante.AutoSize = true;
+            this.lb_codigo_estudiante.Location = new System.Drawing.Point(195, 208);
+            this.lb_codigo_estudiante.Name = "lb_codigo_estudiante";
+            this.lb_codigo_estudiante.Size = new System.Drawing.Size(139, 16);
+            this.lb_codigo_estudiante.TabIndex = 26;
+            this.lb_codigo_estudiante.Text = "Codigo del Estudiante";
             // 
-            // label5
+            // lb_progreso_academico
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(62, 272);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(204, 25);
-            this.label5.TabIndex = 27;
-            this.label5.Text = "Progreso Academico ";
+            this.lb_progreso_academico.AutoSize = true;
+            this.lb_progreso_academico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_progreso_academico.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_progreso_academico.ForeColor = System.Drawing.Color.White;
+            this.lb_progreso_academico.Location = new System.Drawing.Point(62, 272);
+            this.lb_progreso_academico.Name = "lb_progreso_academico";
+            this.lb_progreso_academico.Size = new System.Drawing.Size(204, 25);
+            this.lb_progreso_academico.TabIndex = 27;
+            this.lb_progreso_academico.Text = "Progreso Academico ";
             // 
-            // label6
+            // lb_rendimiento_academico
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
-            this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(698, 147);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(220, 24);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Rendimiento Academico";
+            this.lb_rendimiento_academico.AutoSize = true;
+            this.lb_rendimiento_academico.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
+            this.lb_rendimiento_academico.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_rendimiento_academico.ForeColor = System.Drawing.Color.White;
+            this.lb_rendimiento_academico.Location = new System.Drawing.Point(698, 147);
+            this.lb_rendimiento_academico.Name = "lb_rendimiento_academico";
+            this.lb_rendimiento_academico.Size = new System.Drawing.Size(220, 24);
+            this.lb_rendimiento_academico.TabIndex = 28;
+            this.lb_rendimiento_academico.Text = "Rendimiento Academico";
             // 
-            // label7
+            // lb_riesgo_bajo
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(731, 195);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(93, 18);
-            this.label7.TabIndex = 32;
-            this.label7.Text = "Riesgo Bajo ";
+            this.lb_riesgo_bajo.AutoSize = true;
+            this.lb_riesgo_bajo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_riesgo_bajo.Location = new System.Drawing.Point(731, 195);
+            this.lb_riesgo_bajo.Name = "lb_riesgo_bajo";
+            this.lb_riesgo_bajo.Size = new System.Drawing.Size(93, 18);
+            this.lb_riesgo_bajo.TabIndex = 32;
+            this.lb_riesgo_bajo.Text = "Riesgo Bajo ";
             // 
-            // label8
+            // lb_riesgo_medio
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(732, 231);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 18);
-            this.label8.TabIndex = 33;
-            this.label8.Text = "Riesgo Medio";
+            this.lb_riesgo_medio.AutoSize = true;
+            this.lb_riesgo_medio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_riesgo_medio.Location = new System.Drawing.Point(732, 231);
+            this.lb_riesgo_medio.Name = "lb_riesgo_medio";
+            this.lb_riesgo_medio.Size = new System.Drawing.Size(100, 18);
+            this.lb_riesgo_medio.TabIndex = 33;
+            this.lb_riesgo_medio.Text = "Riesgo Medio";
             // 
-            // label12
+            // lb_riesgo_alto
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(732, 261);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(88, 18);
-            this.label12.TabIndex = 34;
-            this.label12.Text = "Riesgo Alto ";
+            this.lb_riesgo_alto.AutoSize = true;
+            this.lb_riesgo_alto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_riesgo_alto.Location = new System.Drawing.Point(732, 261);
+            this.lb_riesgo_alto.Name = "lb_riesgo_alto";
+            this.lb_riesgo_alto.Size = new System.Drawing.Size(88, 18);
+            this.lb_riesgo_alto.TabIndex = 34;
+            this.lb_riesgo_alto.Text = "Riesgo Alto ";
             // 
-            // label13
+            // lb_recordatorios
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.label13.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(698, 303);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(129, 24);
-            this.label13.TabIndex = 35;
-            this.label13.Text = "Recordatorios";
+            this.lb_recordatorios.AutoSize = true;
+            this.lb_recordatorios.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_recordatorios.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_recordatorios.ForeColor = System.Drawing.Color.White;
+            this.lb_recordatorios.Location = new System.Drawing.Point(698, 303);
+            this.lb_recordatorios.Name = "lb_recordatorios";
+            this.lb_recordatorios.Size = new System.Drawing.Size(129, 24);
+            this.lb_recordatorios.TabIndex = 35;
+            this.lb_recordatorios.Text = "Recordatorios";
             // 
-            // label14
+            // lb_grupo
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(432, 272);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 16);
-            this.label14.TabIndex = 36;
-            this.label14.Text = "Grupo ";
+            this.lb_grupo.AutoSize = true;
+            this.lb_grupo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_grupo.Location = new System.Drawing.Point(416, 275);
+            this.lb_grupo.Name = "lb_grupo";
+            this.lb_grupo.Size = new System.Drawing.Size(66, 20);
+            this.lb_grupo.TabIndex = 36;
+            this.lb_grupo.Text = "Grupo ";
             // 
             // pictureBox7
             // 
@@ -285,34 +288,52 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // Panel_Estudiante
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel1.Location = new System.Drawing.Point(55, 318);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(427, 235);
+            this.panel1.TabIndex = 37;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel2.Location = new System.Drawing.Point(658, 342);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(260, 211);
+            this.panel2.TabIndex = 38;
+            // 
+            // fm_Panel_Estudiante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(955, 596);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.lb_grupo);
+            this.Controls.Add(this.lb_recordatorios);
+            this.Controls.Add(this.lb_riesgo_alto);
+            this.Controls.Add(this.lb_riesgo_medio);
+            this.Controls.Add(this.lb_riesgo_bajo);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lb_rendimiento_academico);
+            this.Controls.Add(this.lb_progreso_academico);
+            this.Controls.Add(this.lb_codigo_estudiante);
+            this.Controls.Add(this.lb_programa_academico);
+            this.Controls.Add(this.lb_nombre);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.lb_recomendaciones1);
+            this.Controls.Add(this.lb_panel_docente2);
+            this.Controls.Add(this.lb_inicio);
+            this.Controls.Add(this.lb_panel_estudiante1);
             this.Controls.Add(this.pictureBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Panel_Estudiante";
+            this.Name = "fm_Panel_Estudiante";
             this.Text = "Form2";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -328,25 +349,27 @@
 
         #endregion
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lb_panel_estudiante1;
+        private System.Windows.Forms.Label lb_inicio;
+        private System.Windows.Forms.Label lb_panel_docente2;
+        private System.Windows.Forms.Label lb_recomendaciones1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label lb_nombre;
+        private System.Windows.Forms.Label lb_programa_academico;
+        private System.Windows.Forms.Label lb_codigo_estudiante;
+        private System.Windows.Forms.Label lb_progreso_academico;
+        private System.Windows.Forms.Label lb_rendimiento_academico;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lb_riesgo_bajo;
+        private System.Windows.Forms.Label lb_riesgo_medio;
+        private System.Windows.Forms.Label lb_riesgo_alto;
+        private System.Windows.Forms.Label lb_recordatorios;
+        private System.Windows.Forms.Label lb_grupo;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
     }
 }

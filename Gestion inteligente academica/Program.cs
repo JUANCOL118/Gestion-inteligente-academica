@@ -16,7 +16,7 @@ namespace Gestion_inteligente_academica
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inicio_Sesion());
+            Application.Run(new fm_Inicio_Sesion());
         }
     }
 }

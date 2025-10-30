@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Gestion_inteligente_academica
 {
-    public partial class Inicio_Sesion : Form
+    public partial class fm_Inicio_Sesion : Form
     {
-        public Inicio_Sesion()
+        public fm_Inicio_Sesion()
         {
             InitializeComponent();
         }
@@ -25,15 +25,33 @@ namespace Gestion_inteligente_academica
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form formulario = new Inicio();
+            Form formulario = new fm_Inicio();
             formulario.Show();
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form formulario = new Inicio();
+            Form formulario = new fm_Inicio();
             formulario.Show();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form formulario = new fm_Panel_Estudiante();
+            formulario.Close();
+        }
     }
+    
 }
