@@ -79,5 +79,12 @@ namespace Gestion_inteligente_academica
         {
 
         }
+
+        private void pictureBox5_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form formulario = new fm_Inicio_Sesion();
+            formulario.Show();
+        }
     }
 }
