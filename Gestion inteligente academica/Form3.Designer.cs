@@ -50,7 +50,6 @@
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.lb_programa_academico1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -166,11 +165,11 @@
             // lb_codigo_estudiante1
             // 
             this.lb_codigo_estudiante1.AutoSize = true;
-            this.lb_codigo_estudiante1.Location = new System.Drawing.Point(202, 225);
+            this.lb_codigo_estudiante1.Location = new System.Drawing.Point(202, 191);
             this.lb_codigo_estudiante1.Name = "lb_codigo_estudiante1";
-            this.lb_codigo_estudiante1.Size = new System.Drawing.Size(138, 16);
+            this.lb_codigo_estudiante1.Size = new System.Drawing.Size(128, 16);
             this.lb_codigo_estudiante1.TabIndex = 29;
-            this.lb_codigo_estudiante1.Text = "Codigo del estudiante";
+            this.lb_codigo_estudiante1.Text = "Codigo del docente ";
             // 
             // lb_asignaturas
             // 
@@ -284,15 +283,6 @@
             this.Column5.Name = "Column5";
             this.Column5.Width = 125;
             // 
-            // lb_programa_academico1
-            // 
-            this.lb_programa_academico1.AutoSize = true;
-            this.lb_programa_academico1.Location = new System.Drawing.Point(202, 195);
-            this.lb_programa_academico1.Name = "lb_programa_academico1";
-            this.lb_programa_academico1.Size = new System.Drawing.Size(139, 16);
-            this.lb_programa_academico1.TabIndex = 41;
-            this.lb_programa_academico1.Text = "Programa Academico";
-            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveBorder;
@@ -316,7 +306,6 @@
             this.ClientSize = new System.Drawing.Size(953, 594);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lb_programa_academico1);
             this.Controls.Add(this.dgv_data_estudiantes);
             this.Controls.Add(this.dgv_data_Asignaturas);
             this.Controls.Add(this.lb_riesgo_academico);
@@ -369,7 +358,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.Label lb_programa_academico1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
     }

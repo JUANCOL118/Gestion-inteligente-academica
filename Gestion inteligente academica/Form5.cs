@@ -52,6 +52,11 @@ namespace Gestion_inteligente_academica
             Form formulario = new fm_Panel_Estudiante();
             formulario.Close();
         }
+
+        private void fm_Inicio_Sesion_Load(object sender, EventArgs e)
+        {
+
+        }
     }
     
 }

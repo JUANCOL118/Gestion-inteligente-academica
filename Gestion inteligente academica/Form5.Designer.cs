@@ -129,6 +129,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "fm_Inicio_Sesion";
             this.Text = "Form5";
+            this.Load += new System.EventHandler(this.fm_Inicio_Sesion_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
