@@ -36,11 +36,6 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.lb_estudiantes1 = new System.Windows.Forms.Label();
-            this.dgv_data_estudiantes1 = new System.Windows.Forms.DataGridView();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.lb_asignaturas1 = new System.Windows.Forms.Label();
             this.dgv_data_Asignaturas1 = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -48,11 +43,15 @@
             this.lb_recomendaciones4 = new System.Windows.Forms.Label();
             this.pn_recomendaciones = new System.Windows.Forms.Panel();
             this.lk_decargar_informe = new System.Windows.Forms.LinkLabel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.lb_nombre = new System.Windows.Forms.Label();
+            this.lb_codigo_estudiante = new System.Windows.Forms.Label();
+            this.lb_programa_academico = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_data_estudiantes1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_data_Asignaturas1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // lb_reomendaciones3
@@ -135,54 +134,6 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
-            // lb_estudiantes1
-            // 
-            this.lb_estudiantes1.AutoSize = true;
-            this.lb_estudiantes1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
-            this.lb_estudiantes1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_estudiantes1.ForeColor = System.Drawing.Color.White;
-            this.lb_estudiantes1.Location = new System.Drawing.Point(57, 138);
-            this.lb_estudiantes1.Name = "lb_estudiantes1";
-            this.lb_estudiantes1.Size = new System.Drawing.Size(120, 25);
-            this.lb_estudiantes1.TabIndex = 32;
-            this.lb_estudiantes1.Text = "Estudiantes ";
-            // 
-            // dgv_data_estudiantes1
-            // 
-            this.dgv_data_estudiantes1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(107)))), ((int)(((byte)(168)))));
-            this.dgv_data_estudiantes1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_data_estudiantes1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column3,
-            this.Column4,
-            this.Column5});
-            this.dgv_data_estudiantes1.Location = new System.Drawing.Point(62, 186);
-            this.dgv_data_estudiantes1.Name = "dgv_data_estudiantes1";
-            this.dgv_data_estudiantes1.RowHeadersWidth = 51;
-            this.dgv_data_estudiantes1.RowTemplate.Height = 24;
-            this.dgv_data_estudiantes1.Size = new System.Drawing.Size(427, 89);
-            this.dgv_data_estudiantes1.TabIndex = 41;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Codigo";
-            this.Column3.MinimumWidth = 6;
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 125;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Nombre";
-            this.Column4.MinimumWidth = 6;
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 125;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Grupo";
-            this.Column5.MinimumWidth = 6;
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 125;
-            // 
             // lb_asignaturas1
             // 
             this.lb_asignaturas1.AutoSize = true;
@@ -253,18 +204,59 @@
             this.lk_decargar_informe.TabStop = true;
             this.lk_decargar_informe.Text = "Descargar informe";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Gestion_inteligente_academica.Properties.Resources.Panel_Estudiante;
+            this.pictureBox4.Location = new System.Drawing.Point(62, 138);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(108, 114);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 47;
+            this.pictureBox4.TabStop = false;
+            // 
+            // lb_nombre
+            // 
+            this.lb_nombre.AutoSize = true;
+            this.lb_nombre.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(141)))), ((int)(((byte)(6)))));
+            this.lb_nombre.Location = new System.Drawing.Point(176, 150);
+            this.lb_nombre.Name = "lb_nombre";
+            this.lb_nombre.Size = new System.Drawing.Size(168, 24);
+            this.lb_nombre.TabIndex = 48;
+            this.lb_nombre.Text = "Nombre Completo";
+            // 
+            // lb_codigo_estudiante
+            // 
+            this.lb_codigo_estudiante.AutoSize = true;
+            this.lb_codigo_estudiante.Location = new System.Drawing.Point(177, 211);
+            this.lb_codigo_estudiante.Name = "lb_codigo_estudiante";
+            this.lb_codigo_estudiante.Size = new System.Drawing.Size(139, 16);
+            this.lb_codigo_estudiante.TabIndex = 49;
+            this.lb_codigo_estudiante.Text = "Codigo del Estudiante";
+            // 
+            // lb_programa_academico
+            // 
+            this.lb_programa_academico.AutoSize = true;
+            this.lb_programa_academico.Location = new System.Drawing.Point(176, 185);
+            this.lb_programa_academico.Name = "lb_programa_academico";
+            this.lb_programa_academico.Size = new System.Drawing.Size(139, 16);
+            this.lb_programa_academico.TabIndex = 50;
+            this.lb_programa_academico.Text = "Programa Academico";
+            // 
             // fm_Planes_Mejora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 594);
+            this.Controls.Add(this.lb_programa_academico);
+            this.Controls.Add(this.lb_codigo_estudiante);
+            this.Controls.Add(this.lb_nombre);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.lk_decargar_informe);
             this.Controls.Add(this.pn_recomendaciones);
             this.Controls.Add(this.lb_recomendaciones4);
             this.Controls.Add(this.dgv_data_Asignaturas1);
             this.Controls.Add(this.lb_asignaturas1);
-            this.Controls.Add(this.dgv_data_estudiantes1);
-            this.Controls.Add(this.lb_estudiantes1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.lb_panel_docente3);
@@ -279,8 +271,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_data_estudiantes1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_data_Asignaturas1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -295,11 +287,6 @@
         private System.Windows.Forms.Label lb_panel_docente3;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Label lb_estudiantes1;
-        private System.Windows.Forms.DataGridView dgv_data_estudiantes1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.Label lb_asignaturas1;
         private System.Windows.Forms.DataGridView dgv_data_Asignaturas1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
@@ -307,5 +294,9 @@
         private System.Windows.Forms.Label lb_recomendaciones4;
         private System.Windows.Forms.Panel pn_recomendaciones;
         private System.Windows.Forms.LinkLabel lk_decargar_informe;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Label lb_nombre;
+        private System.Windows.Forms.Label lb_codigo_estudiante;
+        private System.Windows.Forms.Label lb_programa_academico;
     }
 }
